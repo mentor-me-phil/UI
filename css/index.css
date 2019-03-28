@@ -116,24 +116,23 @@
     border-radius: 10px; */
     overflow: hidden;
   }
-  .section .box {
-    padding: 40px;
+  /* .section .box {
+    padding: 10px;
   }
   .section .box .box-title {
     font-size: 24px;
     padding-bottom: 10px;
     font-weight: bold;
-  }
+  } */
     
 .section .sectionleft {
     width: 33%;
-    margin: 45px auto;
-    display: flex;
-    border: 1px solid @lambda-red;
-    box-shadow: 1px 1px 5px @lambda-red;
+    margin: 25px auto;
+    border: 1px solid red;
+    box-shadow: 1px 1px 5px red;
     border-radius: 10px;
-    overflow: hidden;
     background-color: blue;
+    padding: 5px;
 }
 .section .sectionleft .box {
     padding: 40px;
@@ -146,14 +145,14 @@
       
     
 .section .sectionright {
-    width: 33%;
-    margin: 45px auto;
-    display: flex;
-    border: 1px solid @lambda-red;
-    box-shadow: 1px 1px 5px @lambda-red;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: blue;
+  width: 60%;
+  margin: 25px auto;
+  border: 1px solid red;
+  box-shadow: 1px 1px 5px red;
+  border-radius: 10px;
+  background-color: green;
+  padding: 5px;
+}
 }
 .section .sectionright .box {
     padding: 40px;
