@@ -1,80 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-			
-			  <meta charset="utf-8">
-			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			
-			  <title>Mentor Me</title>
-			  <link rel="shortcut icon" href="img/fav.png" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mentor Me</title>
+		<link rel="shortcut icon" href="img/fav.png" />
 		<link rel="stylesheet" href="./CSS/index.css">
 	</head>
 	<body>
 		<script defer="defer" src="./Tabs/Tabs.js"></script>
 		
 		<div class="header-container">
-			<div class="dropdown">
+			<div class="logo">
 				<img src="./img/logo.png" class="header" />
-				<nav class="header">
-					<a href="index.html">Home</a>
-					<a href="about.html">About</a>
-					<a href="contact.html">Contact</a>
-					<a href="signup.html">Sign up / Log In</a>
-				</nav>
 			</div>
+			<nav class="header">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+				<a href="signup.html">Sign up / Log In</a>
+			</nav>
 		</div>
- <div class="section">
-	 <div class="box">
-
-	 </div>
-
- </div>
+	<div class="section">
+		<div class="mainbox">
+			<h2 >Welcome</h2>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
+		</div>
+	</div>
 		<div class="section">
-				<div class="sectionleft box">
+			<div class="sectionleft box">
 	
 			<div class="box">
-				<div class="box-title">Box Title 1</div>
-				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
+				<h2 >Welcome</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
 			</div>
 		</div>
 		<div class="sectionright box">
-				<div class="tabs">
-					<div class="tabs-links">
-							<div class="tabs-link tabs-link-selected" data-tab="1">What we Do</div>
-							<div class="tabs-link" data-tab="2">How it works</div>
-							<div class="tabs-link" data-tab="3">Meet our Mentors</div>
-							<div class="tabs-link" data-tab="4">Become a Mentor</div>
-							<div class="tabs-link" data-tab="5">Sign up For our Newsletter</div>
+			<div class="tabs">
+				<div class="tabs-links">
+					<div class="tabs-link tabs-link-selected" data-tab="1">What we Do</div>
+					<div class="tabs-link" data-tab="2">How it works</div>
+					<div class="tabs-link" data-tab="3">Meet our Mentors</div>
+					<div class="tabs-link" data-tab="4">Become a Mentor</div>
+					<div class="tabs-link" data-tab="5">Sign up For our Newsletter</div>
+				</div>
+				<div class="tabs-items">
+					<div class="tabs-item tabs-item-selected" data-tab="1">
+						<h4>Section 1</h4>
+						<script language="JavaScript"> 
+							var i = 0; var path = new Array(); 
+							
+							// LIST OF IMAGES 
+							path[0] = "img/slide1.jpg"; 
+							path[1] = "img/slide2.jpe"; 
+							path[2] = "img/slide3.jpe"; 
+							
+							function swapImage() 
+							{ 
+							document.slide.src = path[i]; 
+							if(i < path.length - 1) i++; 
+							else i = 0; 
+							setTimeout("swapImage()",3000);  
+							} 
+							window.onload=swapImage; 
+						</script> 
+						<img height="200" name="slide" src="img/slide1.jpg" width="400" />
 					</div>
-					<div class="tabs-items">
-							<div class="tabs-item tabs-item-selected" data-tab="1">
-									<h4>Section 1</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
-							</div>
-							<div class="tabs-item" data-tab="2">
-									<h4>Section 2</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
-							</div>
-							<div class="tabs-item" data-tab="3">
-									<h4>Section 3</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
-							</div>
-							<div class="tabs-item" data-tab="4">
-									<h4>Section 4</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
-							</div>
-							<div class="tabs-item" data-tab="5">
-									<h4>Section 4</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
-									<button>NewsLetter</button>
-							</div>
-						</div>
+					<div class="tabs-item" data-tab="2">
+							<h4>Section 2</h4>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
+					</div>
+					<div class="tabs-item" data-tab="3">
+							<h4>Section 3</h4>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
+					</div>
+					<div class="tabs-item" data-tab="4">
+							<h4>Section 4</h4>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
+					</div>
+					<div class="tabs-item" data-tab="5">
+							<h4>Section 4</h4>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad! Sit minus doloremque consequatur suscipit tempora. Consequatur nostrum, accusamus deleniti unde sed officia laudantium molestias quasi, nobis, at minima molestiae.</p>
+							<button>NewsLetter</button>
 					</div>
 				</div>
+			</div>
 		</div>
+	</div>
 
-		<div class="section">
-				</div>
+	<div class="footer-container">
+		<nav class="footerlink">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+		<a href="signup.html">Sign up / Log In</a>		
+		</nav>	
+	</div>
+
 			</div>
 		</div>
 	</body>
