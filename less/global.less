@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     box-sizing: border-box;
     min-width: 300px;
@@ -47,8 +47,8 @@
       
     }
       &:hover {
-        color: green;
-        background-color: black;
+        color: @white;
+        background-color: @brightblue-dark;
       }
 
      }
@@ -60,12 +60,13 @@
     margin: auto;
     .section {
     width: 70%;
-    margin: 45px auto;
+    margin: 15px auto;
     display: flex;
-    min-height: 400px;
+    min-height: 300px;
     overflow: hidden;
     @media @mobile {
-      flex-direction: column
+      flex-direction: column;
+      width: 100%;
     }
       .sectionleft {
         width: 30%;
@@ -86,6 +87,7 @@
         }
         @media @mobile {
           width: 100%;
+          margin-bottom: 20px;
         }
       }
     .sectionright {
@@ -118,6 +120,7 @@
     @media @mobile {
       width: 100%;
     }
+ 
 }
   }
   .footer-container {
